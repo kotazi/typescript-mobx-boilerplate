@@ -25,9 +25,13 @@
         "max-line-length": [ true, 120 ],
         "member-ordering": [
             true,
-            "public-before-private",
-            "static-before-instance",
-            "variables-before-functions"
+            {
+                "order": [
+                    "public-before-private",
+                    "static-before-instance",
+                    "variables-before-functions"
+                ]
+            }
         ],
         "no-any": true,
         "no-arg": true,
@@ -53,7 +57,7 @@
         "no-switch-case-fall-through": true,
         "no-trailing-whitespace": false,
         "no-unused-expression": true,
-        "no-use-before-declare": true,
+        "no-use-before-declare": false,
         "one-line": [
             true,
             "check-catch",
