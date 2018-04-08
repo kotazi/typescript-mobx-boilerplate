@@ -73,7 +73,7 @@ declare namespace Profile {
     weightUnit: string;
   }
 
-  export interface Profile {
+  export interface RootObject {
     user: User;
   }
 }
